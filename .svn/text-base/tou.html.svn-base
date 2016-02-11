@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="myApp"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" ng-app="myApp"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" ng-app="myApp"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="vetvance"> <!--<![endif]-->
+    <head >
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Terms of Use</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="contents/css/bootstrap.min.css">
+        <link rel="stylesheet" href="contents/css/global-boilerplate.css">
+        <link rel="stylesheet" href="contents/css/global.css">        
+        <link rel="stylesheet" href="contents/css/members.css">
+        <link rel="stylesheet" href="contents/css/profiles.css">
+        <link rel="stylesheet" href="contents/css/bootstrap-modal.css">
+        <link rel="stylesheet" href="contents/css/index.css">
+        <link rel="stylesheet" href="contents/css/connect.css">
+        <link rel="stylesheet" href="contents/css/whoweare.css">
+        <link rel="stylesheet" href="contents/css/searchresults.css">
+        <link rel="stylesheet" href="contents/css/courselist.css">
+        <link rel="stylesheet" href="contents/css/advance.css">
+        <link rel="stylesheet" href="contents/css/courselanding.css">
+        <link rel="stylesheet" href="contents/css/module.css">
+        <link rel="stylesheet" href="contents/css/contact.css">
+        <link rel="stylesheet" href="contents/css/privacy.css">
+        <link rel="stylesheet" href="contents/css/tou.css">
+        <link rel="stylesheet" href="contents/css/sitemap.css">
+        <link rel="stylesheet" href="contents/css/job.css">
+        <link rel="stylesheet" href="contents/css/vendors/selectize.bootstrap3.css">
+        <link rel="stylesheet" href="contents/css/vendors/iCheck/minimal/orange.css">
+        <link rel="stylesheet" href="contents/css/vendors/ui-lightness/jquery-ui-1.10.3.custom.css">
+        <script src="contents/js/libs/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/woj0cag.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script>
+            var guid = 'c104da7c-4567-4cf7-9c57-d70facb70687';
+        </script>        
+        
+        <div class="container">   
+            <!-- begin .pageheader -->
+<header class="pageheader">
+	<form id="form-course-search" method="post" action="coursesearch.html">
+	<div class="toprow">
+		<div class="logo">
+			<a href="index.html"><img src="contents/imgs/logo.png" alt="Vetvance" /></a>
+		</div>
+		<div class="course-finder">
+			<label>COURSE FINDER</label>
+			<div class="search-field">
+				<input type="submit" class="ico-search" />
+				<div class="input-padding">
+					<input class="input-search input-black filter-item placeholder" placeholder="Keyword" name="Keyword-terms" type="text">
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav>
+		<ul class="sitenav">
+			<li class="home"><a href="index.html"><img src="contents/imgs/home.png" alt="home" /></a></li>
+			<li><a href="advance.html" class="advanced">ADVANCE</a></li>
+			<li><a href="connect.html" class="connect">CONNECT</a></li>
+			<li><a href="findjob.html" class="search">FIND A JOB</a></li>
+			<li><a href="whoweare.html" class="whoweare">WHO WE ARE</a></li>
+			<li class="user-dd ">
+				<div class="dropdown">
+					<img class="user-head" src="contents/imgs/profiles/demo-cabasapico.png" alt='' />
+					<span class="user-name">John Sanders</span>
+					<span class="controls" id="dropdownUserMenu" data-toggle="dropdown">
+						<img src="contents/imgs/down-arw.png" alt='' />
+					</span> 
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownUserMenu">
+						<li>You have 40 new connections</li>
+						<li><a class="userlink" href="#"><img src="contents/imgs/profiles/demo-cabasapico-1.png" alt='' />Name Lastname</a></li>
+						<li class="divider"></li>
+						<li><a class="userlink" href="#"><img src="contents/imgs/profiles/demo-cabasapico-2.png" alt='' />Name Lastname</a></li>
+						<li class="divider"></li>
+						<li class="menuitem more"><a class="userlink" href="#">2 more...</a></li>
+						<li class="divider"></li>
+						<li class="menuitem"><a role="menuitem" tabindex="-1" href="profile.html">My Profile</a></li>
+						<li class="divider"></li>
+						<li class="menuitem"><a role="menuitem" tabindex="-1" href="signout">Sign out</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="login">
+				<ul>
+					<li><a href="signin.html">Sign in</a></li>
+					<li><a href="register.html">Register</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	</form>
+</header>
+<!--/ .pageheader  -->
+            <div class="main-container">
+                <div id="pageId" class="tou-container">
+	<h3 class="uppercase tou-header">Terms of Use</h3>
+	<p>Welcome. These Terms of Use between you and Zoetis Inc (&ldquo;<strong><em>Zoetis</em></strong>&rdquo;) govern your use of <a href="/"><strong>www.vetvance.com</strong></a> (&ldquo;<strong><em>Site</em></strong>&rdquo;). <strong>By accessing or using the Site, you acknowledge that you have read and understood, and that you agree to be bound, without limitation or qualification, by these Terms of Use as well as our <a href="privacy.html">Privacy Policy</a></strong><strong> which is incorporated herein by reference.&nbsp;If you are not willing to be bound by these Terms of Use, you may not access the Site.</strong></p>
+
+
+
+<p><strong>1.&nbsp;Ownership and Use of the Site. </strong>We hope that you will browse the Site and find it useful.&nbsp;All contents of the Site, its &ldquo;look and feel&rdquo; and design elements, trademarks, service marks, logos, text, graphics, audio, images, charts, audio clips, videos, data and compilations (the <strong>&ldquo;Zoetis Content&rdquo;</strong>) are the property of Zoetis, its affiliates, related companies or its licensors or partners unless otherwise noted, and are legally protected without limitation, under U.S. federal and state, as well as applicable non-US laws, regulations and treaties.&nbsp;Unless the context clearly requires otherwise, or we explicitly say so in writing, the term &ldquo;<strong>Site</strong>&rdquo; includes &ldquo;<strong>Zoetis Content.</strong>&rdquo; Zoetis reserves the right to alter or delete material from the Site at any time.</p>
+
+
+
+<p>Zoetis grants you a limited, non-exclusive, non-transferable, non-assignable license to access and view the Site consistent with these Terms of Use and solely for your limited personal, non-commercial use. You may not distribute, modify, transmit, reuse, repost, publicly display, publicly perform, or create another work that incorporates any Zoetis Content without the express written permission of Zoetis. You must retain, without modification, all proprietary notices affixed to or contained in the Site.&nbsp;Except as otherwise expressly permitted by Zoetis, any other use of the Zoetis Content for any purpose is prohibited.</p>
+
+
+
+<p><strong>BY ACCESSING, VIEWING OR USING THE SITE YOU ACKNOWLEDGE THAT ANY UNAUTHORIZED USE OF ZOETIS CONTENT BY YOU MAY VIOLATE COPYRIGHT, TRADEMARK, PRIVACY AND/OR PUBLICITY LAWS AS WELL AS COMMUNICATION REGULATIONS AND STATUTES.&nbsp;YOU AGREE THAT ZOETIS WILL HAVE NO RESPONSIBILITY OR LIABILITY FOR ANY UNAUTHORIZED USE OF THE SITE.&nbsp; </strong></p>
+
+
+
+<p><strong>2.&nbsp;Prohibited Site Access.&nbsp;</strong>Except as otherwise expressly permitted by Zoetis, any other use of the Zoetis Content or the Site is prohibited.&nbsp;Without limiting the generality of the foregoing, you may not sell, republish, license, redistribute, or otherwise use the Site except as allowed herein unless you have obtained Zoetis&rsquo;s express written consent.&nbsp;In addition, without Zoetis&rsquo;s express written consent, you may not, directly, indirectly, or through any program, device, software, routine, robot, spider, crawlers, or other automatic or manual process, interfere or attempt to interfere with the proper working of the Site; collect, scrape, or mine the contents of the Site; add any code or insert any hidden data or text to the Site; access or attempt to access any other areas of Zoetis information systems or information contained thereon for any purpose; take any action that imposes an unreasonable or disproportionately large load on Zoetis&rsquo;s infrastructure; or mirror or redisplay this Site in its entirety or in part through framing or other techniques that show a portion of the Site or otherwise redisplay any Zoetis trademark, logo, trade name or other proprietary information, including images, frames, content, or layout/design found on any page of the Site.&nbsp;Zoetis may, in its discretion, revoke all rights to access the Site.</p>
+
+
+
+<p><strong>3.&nbsp;Inappropriate Site Use.&nbsp;</strong>You are prohibited from using the Site in bad faith and in uploading, posting or otherwise transmitting any abusive, threatening, libelous, defamatory, offensive, objectionable, obscene, inflammatory, pornographic, fraudulent, deceptive, misleading, profane, or otherwise unlawful or inappropriate material, including but not limited to any material that could constitute or encourage conduct that would be considered a criminal offense, give rise to civil liability or would otherwise violate the law, including the copyright, trademark or other intellectual property right of another.&nbsp;</p>
+
+
+
+<p><strong>4.&nbsp;No Endorsement of Linked Content. </strong>Certain links on the Site lead to resources located on servers that are not maintained by Zoetis or under its control. We provide such links for our users&rsquo; convenience.&nbsp;Zoetis is not responsible for the content of any such referenced web sites or for the availability of or access to such web sites. Inclusion on the Site of any link to another web site, or any reference to any product or service by trade name, trademark manufacturer, or otherwise, does not constitute or imply an endorsement or recommendation by Zoetis. Zoetis makes no warranties or representations of any kind as to the accuracy, currency or completeness of any information contained on such web sites. Access to other sites linked to this Site is at your own risk, and Zoetis disclaims all liability with regard to your access to such linked sites, or arising from the content or information contained therein.</p>
+
+
+
+<p><strong>YOU AGREE THAT ZOETIS WILL HAVE NO RESPONSIBILITY OR LIABILITY FOR ANY INFORMATION, SOFTWARE, OR MATERIALS FOUND AT ANY LINKED SITE.</strong></p>
+
+
+
+<p><strong>5.&nbsp;Trademarks. </strong>The trademarks, logos, service marks and trade dress (collectively, the &ldquo;<strong><em>Trademarks</em></strong>&rdquo;) displayed on the Site, whether or not appearing in large print, italics or with the trademark symbol, are registered and unregistered trademarks of Zoetis, its affiliates, related companies or its licensors or partners unless otherwise noted. In addition, all page headers, custom graphics, button icons and scripts may be Trademarks of Zoetis and may not be copied, in whole or in part, without the prior written permission of Zoetis. You acknowledge that the Trademarks used and displayed on this Site are and shall remain the sole property of Zoetis or the Trademark owner. Nothing contained in this Site should be construed as granting, by implication, estoppel or otherwise, any license or right in and to the Trademarks without the express written permission of Zoetis or the Trademark owner. Your misuse of the Trademarks on the Site and in its contents, except as provided in these Terms of Use, is prohibited.</p>
+
+
+
+<p><strong>6.&nbsp;Copyrights.</strong>&nbsp;Any and all Zoetis Content and other works of authorship on the Site (collectively, &ldquo;<strong><em>Works</em></strong>&rdquo;) are the copyrighted works of Zoetis, its affiliates, related companies, or its licensors or partners, and are protected under U.S. and other copyright laws and treaty provisions. Other than the limited license to access and view the Zoetis Content set forth in these Terms of Use, Zoetis grants you no other privileges or rights in any of the Works. You acknowledge that any other use of the Works, including without limitation, reproduction, modification, distribution, transmission, republication, public display, or public performance, without the prior written permission of Zoetis, is prohibited.&nbsp;You agree not to decompile, disassemble, reverse engineer, or attempt to reconstruct, identify, or discover any source code, underlying ideas, underlying user interface techniques, or algorithms of the Site by any means whatsoever, except to the extent the foregoing restriction is prohibited by applicable law. We take protection of copyrights, both of our own and others, very seriously. If you believe that the Site contains elements that infringe copyright in your work, please follow the procedures outlined in Section 12 of these Terms of Use.</p>
+
+
+
+<p><strong>7. Privacy Policy. </strong>Zoetis respects your privacy.&nbsp;Please review our Privacy Policy (please see the link in the introduction of these Terms of Use) so that you may understand the information we collect, our use of that information and the choices we offer you.&nbsp;&nbsp;</p>
+
+
+
+<p><strong>8.&nbsp;Registration.&nbsp;</strong>You may be able to create a user account or otherwise register with the Site. If you choose to do so, you must provide us with accurate, current, and complete information, and you agree to be responsible for any conduct using your account and to maintain the security of any user name and password.&nbsp;You may not create accounts or submit Uploads (defined below) on behalf of anyone other than yourself.</p>
+
+
+
+<p><strong>9.&nbsp;Submissions (Including Your Uploads).</strong> If you are (i) at least 18 years of age and above the age of majority in the state in which you live, (ii) are an emancipated minor, or (iii) possess legal parental or guardian consent, you may choose to provide, make available to Zoetis, or post on or upload to the Site, suggestions, comments, ideas, improvements, information, personal or other data, text, images, and other works of authorship (collectively, &ldquo;<strong><em>Uploads</em></strong>&rdquo;).&nbsp;<strong>Please note that if you are under 13, you are not permitted to provide any personal information via this Site including but not limited to Uploads. </strong></p>
+
+
+
+<p>If you provide Uploads, you grant to Zoetis and Zoetis&rsquo;s affiliates, representatives, employees, and assigns an irrevocable, perpetual, non-exclusive, royalty-free, worldwide, non-exclusive license (sublicenseable through multiple tiers, and to third parties including to other users of the Site) to reproduce, publicly display, archive, distribute, adapt, modify, publish, edit, translate, prepare derivative works of and otherwise use your Uploads, in whole or in part, (including your name, likeness, age and gender) in any media now or hereafter known in any manner and for any purpose, including but not limited to, publication on the Site and any associated print or digital promotional materials related thereto, any other marketing and promotional materials and for the development of products or services. You agree that you are solely responsible for all your communications, materials and suggestions you transmit to, or post on, the Site.&nbsp; &nbsp;&nbsp;</p>
+
+
+
+<p>You represent and warrant that: (a) you are above the age of majority in the state in which you live, an emancipated minor, or possess legal parental or guardian consent ; (b) you own all rights in your Uploads or, alternatively, you have acquired all necessary rights in your Uploads to enable you to grant to Zoetis the rights in your Uploads described herein; (c) your Uploads do not infringe the intellectual property rights, privacy, or any other legal or moral rights of any third party; (e) your Uploads are lawful; (e) your Uploads are not harmful, such as virus, malware, or spam; (f) your Uploads are not disparaging, defamatory, or libelous of Zoetis or any third party; (g) you will not seek the return of your Uploads; and (g) you will not assert any claims against Zoetis or its affiliates, representatives, employees, or assigns in connection with your Uploads.&nbsp;</p>
+
+<p>Zoetis and its affiliates, representatives, employees, and assigns shall be free to use any ideas, concepts, know-how or techniques contained in your Uploads, for any purpose whatsoever, without time or territorial limitations, without your consent or compensation to you, including but not limited to, developing, manufacturing and marketing products, and you will gain no right, title or interest (including no joint ownership in the Site or any other materials) by virtue of doing so. As a further condition of providing Uploads you (and any other individual depicted therein) unconditionally and irrevocably waive all claims to compensation use of the Uploads by Zoetis and its affiliates, representatives, employees, or assigns and/or any right with respect to such use you may have under copyright law, the right of publicity, the right of privacy, the law of defamation and/or any other common law or statutory claims under the laws of any jurisdiction.&nbsp;You hereby waive any moral rights you may have in the Uploads, for all uses of the Uploads, throughout the world.</p>
+
+
+
+<p><strong>10.&nbsp;Non-Confidential Nature of Uploads.</strong>&nbsp;Subject to any applicable terms and conditions set forth in our Privacy Policy or elsewhere on the Site (for example, in terms and conditions that apply to any Upload), your Uploads are and will be deemed to be non-confidential and Zoetis shall have no obligation of any kind with respect to such information.</p>
+
+
+
+<p><strong>Zoetis reserves the right to cooperate fully with any law enforcement authorities requesting or directing Zoetis to disclose the identity of anyone posting an upload or other information or materials.&nbsp; </strong></p>
+
+
+
+<p><strong>11.&nbsp;Monitoring of the Site. </strong>Zoetis may, from time to time, monitor, review, block or remove Uploads; however, Zoetis is under no obligation to do so and assumes no responsibility or liability arising from such content nor for any error, defamation, libel, slander, omission, falsehood, obscenity, pornography, profanity, danger or inaccuracy contained in any Uploads.&nbsp;Users shall be solely responsible and liable for any Uploads, any activity or transactions that occur under their name or account, and any infringement of copyright, trademarks, or other rights. Zoetis is not required to host, display, or distribute any Uploads, and may, in its sole discretion, remove at any time or refuse any Uploads for any reason.&nbsp;Zoetis is not responsible for any loss, theft or damage of any kind to any Uploads.&nbsp;</p>
+
+
+
+<p><strong>12.&nbsp;Copyright Infringement Notification.</strong>&nbsp;Zoetis respects the intellectual property of others, and we ask that you and all of our Site users do the same. If you believe that your copyrighted work is accessible on the Site in a way that constitutes copyright infringement, please inform us.</p>
+
+
+
+<p><strong>13.&nbsp;Forward-Looking Statements. </strong>This Site may contain forward-looking statements about Zoetis&rsquo;s financial and operating performance, business plans and prospects, in-line products and products in development that involve substantial risks and uncertainties.&nbsp; Such risks and uncertainties include, among other things, the uncertainties inherent in pharmaceutical research and development; decisions by regulatory authorities regarding whether and when to approve drug applications and supplemental drug applications as well as their decisions regarding labeling and other matters that could affect the availability or commercial potential of Zoetis products; competitive developments; the ability to successfully market both new and existing products; challenges to the validity and enforcement of Zoetis&rsquo;s patents; and general economic conditions, such as interest rate and foreign currency exchange rate fluctuations.&nbsp;Such risks and uncertainties that might cause actual results to differ from those foreseen, including those risks which are detailed in Zoetis&rsquo;s reports filed with the U.S. Securities and Exchange Commission.&nbsp;Zoetis assumes no obligation to update any forward-looking statements as a result of new information or future events or developments.</p>
+
+
+
+<p><strong>14.&nbsp;Site May Not Always Be Available or Accessible. </strong>Zoetis does not guarantee that the Site will be operating at any given time.&nbsp;You should expect that the Site will periodically be taken off-line for maintenance, content and design updates, and other alterations that may make it unavailable.&nbsp;Zoetis does not represent or warrant that the Site is compatible with your hardware or software applications or browsers.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p><strong>15.&nbsp;LIMITATIONS ON LIABILITY.&nbsp;</strong>Your use of the Site is at your own risk. Zoetis uses reasonable efforts to include accurate and up to date information in the Site; however, since information changes so quickly, Zoetis is unable to make any warranties or representations as to its accuracy.</p>
+
+
+
+<p><strong>ZOETIS ASSUMES NO LIABILITY OR RESPONSIBILITY AS TO THE RELIABILITY, ACCURACY, VALIDITY, TIMELINESS, USEFULNESS OR COMPLETENESS OF ANY INFORMATION ON THE SITE.</strong></p>
+
+
+
+<p><strong>In no event shall Zoetis or any other party involved in creating, producing or delivering the Site be liable FOR ANYTHING arising out of your access to, use of or inability to access or use, the Site INCLUDING BUT NOT LIMITED TO any damages, including, without limitation, direct, incidental, consequential, indirect, special or punitive damages, or damages resulting from lost profits, lost data or business interruption.&nbsp; </strong></p>
+
+
+
+<p><strong>In no event shall Zoetis&rsquo;s maximum aggregate liability for action arising out of or connected to the site exceed ONE HUNDRED US dollars ($100.00).&nbsp; </strong></p>
+
+<p>These limitations include but are not limited damages to or viruses that may infect your computer equipment. Zoetis does not guarantee or warrant that files that may be available for download from this Site will be free of infection from viruses, worms, Trojan horses or other code that manifests contaminating or destructive properties.</p>
+
+
+
+<p><strong>Without limiting the foregoing, everything on the Site is provided to you &lsquo;AS IS&rsquo; without REPRESENTATIONS, warranties, OR COVENANTS of any kind, either express or implied, including, but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement of the Site&rsquo;s contents.&nbsp; </strong></p>
+
+
+
+<p><strong>Any claim and action arising out of or in any way connected with this site must be brought within one (1) year after such cause of action arose.</strong></p>
+
+<p>You acknowledge and agree that by using the internet to use the Site, you may incur charges from your wireless carrier, internet service provider or other method of internet access, depending upon your contract or plan with your provider. You acknowledge that payment of any such charges will be your sole responsibility. You agree that your use of the Site will be in accordance with all requirements of your wireless carrier, internet service provider or other method of internet access.</p>
+
+
+
+<p><strong>Some jurisdictions may not allow THE EXCLUSION OF IMPLIED WARRANTIES OR OTHER ITEMS, AND SO some of the above exclusions may not apply to you.</strong></p>
+
+
+
+<p><strong>16.&nbsp;Void Where Prohibited. </strong>Use of any portion of this Site is void where prohibited by law.&nbsp;Although the information on this Site is accessible worldwide, not all products or services discussed in this Site are available to all persons or in all geographic locations or jurisdictions. Check your local laws for any restrictions or limitations regarding the exclusion of implied warranties.&nbsp;Zoetis reserves the right to limit provision of our products or services to any person, geographic region or jurisdiction and/or to limit the quantities of any products or services we provide.&nbsp;You may not access this Site if you are a national or resident of any country to which the United States has embargoed goods, or if you or your affiliates are on the United States Treasury Department&rsquo;s list of Specially Designated Nationals or the U.S. Commerce Department&rsquo;s Table of Denial and Prohibition Orders.&nbsp;Any offer for any product or service made in the materials on this Site is void where prohibited.&nbsp;</p>
+
+
+
+<p><strong>17.&nbsp;Indemnification</strong>. You should use this Site only if it is legal for you to do so.&nbsp;By using this Site, you represent to us that you intend to do lawfully.&nbsp;You agree to indemnify, defend and hold harmless Zoetis, its officers, directors, employees, agents, suppliers, service providers, licensors and third party partners from and against all losses, expenses, damages and costs, including reasonable attorneys&rsquo; fees, resulting from any illegal use of this Site, any breach of your representations and warranties, or any violation by you of these Terms of Use, or any activity related to your account (including negligent or wrongful conduct) by you or any other person accessing the Site using your account.</p>
+
+
+
+<p><strong>18.&nbsp;Our Agreement and Modifications of It. </strong>These Terms of Use, together with our Privacy Policy and any Site specific terms or conditions (for example, terms and conditions that apply to any Upload), constitute the entire agreement between you and Zoetis regarding this Site and supersede any and all other agreements, representations and understandings, whether written or oral.&nbsp;These Terms of Use may not be modified or amended by you without the prior written consent of Zoetis. Zoetis may modify or amend these Terms of Use and the Privacy Policy at any time without notice to you. You should regularly review these Terms of Use for any modifications or amendments to these Terms of Use as your continued use of the Site after a modification or amendment signifies your assent and agreement to these Terms of Use, as amended. If any clause or provision set forth in these Terms of Use is determined to be illegal, invalid or unenforceable under present or future law, then you understand and agree that the clause or provision so determined to be illegal, invalid or unenforceable will be enforced to the extent permissible and shall be severable without affecting the enforceability of all remaining clauses or provisions, while still as fully as possible carrying out the intent of the original provision. Failure by Zoetis to prosecute any right with respect to a default hereunder will not constitute a waiver by Zoetis of the right to enforce rights with respect to the same or any other breach.</p>
+
+
+
+<p><strong>19.&nbsp;Governing laws. </strong>These Terms of Use and your use of the Site and any information contained on the Site or products and services provided by the Site as well as personal information you may provide to us via the Site shall be governed by the laws and regulations of the United States of America and the State of New Jersey without regard to its conflicts of laws principles. Other countries may have laws, regulatory requirements and medical practices that differ from those in the United States.&nbsp;</p>
+
+
+
+<p><strong>20.&nbsp;Consent to Data Processing in the US and Other Countries.</strong> Zoetis is a global company and the databases in which your personal information shall be stored may be located in the United States and other countries which may not guarantee the same level of protection for personal information as the one in which you reside.&nbsp;By using this Site, you consent to any transfer, processing or storing of personal information outside your country of residence.</p>
+
+
+
+<p><strong>21.&nbsp;Dispute Resolution.</strong> Any legal action or proceeding related to this Site shall be brought exclusively in a federal or state court of competent jurisdiction sitting in New Jersey.</p>
+
+
+
+<p><strong>Last Modified:</strong></p>
+
+<p>These Terms of Use were last modified in February 11, 2013.</p>
+
+
+
+</div>
+            </div>
+            <footer>
+  <div class="row-fluid">
+	
+	<div class="aaha-logo">
+		<img src="contents/imgs/aaha_logo.gif" alt="AAHA Logo"/>
+	</div>
+	<div class="footer-nav">
+		<nav>
+			<ul class="nav">
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="privacy.html">Privacy Policy</a></li>
+				<li><a href="tou.html">Terms of Use</a></li>
+				<li><a href="sitemap.html">Site Map</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div class="social-wrap">
+		<img class="social-icon" src="contents/imgs/linkedin_logo.gif" />
+		<img class="social-icon" src="contents/imgs/facebook_logo.gif" />
+		<img class="social-icon" src="contents/imgs/rss_logo.gif" />
+	</div>
+
+  </div>
+
+  <div class="clearfix"></div>
+
+  <div class="row-fluid">
+  		<div class="footer-spacer">&nbsp;</div>
+  </div>
+
+  <div class="clearfix"></div>
+
+ <div class="row-fluid">
+ 	<div class="fineprint">
+ 		<p> &copy; Zoetis, Inc. All rights reserved. The product information provided in this site is intended only for residents of the United States. The products discussed herein may have different label indications in different countries. The animal health information contained herein is provided for educational purposes only and is not intended to replace consultation with your veterinarian. All decisions regarding animal health care must be made with a veterinarian, considering the unique characteristics of each animal.</p>
+ 	</div>
+ 	<div class="zoetis-logo">
+ 		<img src="contents/imgs/zoetis_logo.gif" alt="Zoetis_logo">
+ 	</div>
+ </div>
+</footer>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="contents/js/libs/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <script src="contents/js/libs/handlebars-v1.1.2.js"></script>
+        <script src="contents/js/libs/bootstrap.js"></script>
+        <script src="contents/js/libs/underscore-min.js"></script>
+        <script src="contents/js/libs/jquery.validate.min.js"></script>
+        <script src="contents/js/angular/angular.js"></script>
+        <script src="contents/js/angular/angular-route.js"></script>
+        <script src="contents/js/plugins/jquery.easing.1.3.js"></script>
+        <script src="contents/js/plugins/jquery.icheck.min.js"></script>
+        <script src="contents/js/libs/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="contents/js/utils/class.js"></script>
+        <script src="contents/js/utils/namespace.js"></script>
+        <script src="contents/js/classes/VET.Sitenav.js"></script>
+        <script src="contents/js/global.js"></script>
+        <script src="contents/js/pages/index.js"></script>
+        <script src="contents/js/pages/advance.js"></script>
+        <script src="contents/js/pages/connect.js"></script>
+        <script src="contents/js/pages/members.js"></script>
+        <script src="contents/js/pages/profiles.js"></script>
+        <script src="contents/js/pages/whoweare.js"></script>
+        <script src="contents/js/pages/module.js"></script>
+        <script src="contents/js/pages/courselanding.js"></script>
+        <script src="contents/js/app/app.js"></script>
+        <script src="contents/js/app/services.js"></script>
+        <script src="contents/js/app/controllers.js"></script>
+        <script src="contents/js/app/filters.js"></script>
+        <script src="contents/js/app/directives.js"></script>
+    </body>
+</html>

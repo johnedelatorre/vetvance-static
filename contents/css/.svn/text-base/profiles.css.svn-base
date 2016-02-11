@@ -1,0 +1,289 @@
+/* line 5, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+.profile-container {
+  margin-top: 30px;
+  padding: 0 26px 0 26px;
+  float: left;
+  width: 100%; }
+  /* line 11, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+  .profile-container .header {
+    width: 100%;
+    float: left; }
+    /* line 15, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .header .profile-user {
+      float: left;
+      width: 100%;
+      position: relative; }
+      /* line 19, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .header .profile-user .user-photo {
+        float: left;
+        width: 135px; }
+      /* line 23, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .header .profile-user .user-data {
+        float: left; }
+        /* line 25, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .header .profile-user .user-data h1 {
+          color: #161b8e;
+          font-size: 20px;
+          text-transform: none;
+          margin: 0;
+          padding: 0; }
+        /* line 32, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .header .profile-user .user-data h2 {
+          font-size: 14px;
+          color: #585858;
+          margin: 0;
+          padding: 3px 0; }
+        /* line 38, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .header .profile-user .user-data h3 {
+          font-size: 14px;
+          font-weight: normal;
+          color: #585858;
+          margin: 0;
+          padding: 0; }
+        /* line 45, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .header .profile-user .user-data .display {
+          margin-left: 10px;
+          margin-top: 25px;
+          float: left;
+          width: 600px; }
+        /* line 51, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .header .profile-user .user-data .form-fields {
+          float: left;
+          width: 400px;
+          padding-top: 15px; }
+    /* line 59, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .header .buttons {
+      position: absolute;
+      right: 0;
+      bottom: 5px; }
+      /* line 64, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .header .buttons .btn-update-profile,
+      .profile-container .header .buttons .btn-save-profile {
+        margin-right: 5px;
+        background: #ff6400;
+        width: 140px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: "proxima-nova-condensed";
+        font-size: 14px;
+        font-weight: bold;
+        padding: 4px;
+        border-color: #ff6400;
+        -moz-box-shadow: 0 1px 2px #2f0b0f;
+        -webkit-box-shadow: 0 1px 2px #2f0b0f;
+        box-shadow: 0 1px 2px #2f0b0f; }
+      /* line 79, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .header .buttons .btn-cancel-update-profile {
+        width: 140px;
+        text-transform: uppercase;
+        color: #757575;
+        font-family: "proxima-nova-condensed";
+        font-size: 14px;
+        font-weight: bold;
+        padding: 4px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background-color: #f9f9f9;
+        -moz-box-shadow: 0 1px 2px #6c6c6c, inset 0 1px 0 #f9f9f9;
+        -webkit-box-shadow: 0 1px 2px #6c6c6c, inset 0 1px 0 #f9f9f9;
+        box-shadow: 0 1px 2px #6c6c6c, inset 0 1px 0 #f9f9f9; }
+  /* line 103, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+  .profile-container .form-group {
+    margin: 0 0 8px 0; }
+    /* line 106, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group input {
+      padding: 3px 10px;
+      height: 26px; }
+    /* line 110, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group span {
+      display: block;
+      color: #585858; }
+    /* line 114, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group label {
+      color: #969696;
+      font-weight: normal;
+      padding-top: 3px;
+      /* override bootstap */
+      padding-left: 0;
+      padding-right: 0;
+      float: left;
+      width: 120px; }
+    /* line 123, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .fields {
+      width: 240px;
+      float: left;
+      margin-left: 20px; }
+    /* line 129, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .radio-group div {
+      float: left; }
+    /* line 132, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .radio-group label {
+      padding-top: 0; }
+    /* line 139, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .radio-group .radio-fields div {
+      margin-right: 6px; }
+    /* line 142, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .radio-group .radio-fields select {
+      margin-top: 5px; }
+    /* line 147, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group.email-field-group {
+      margin-bottom: 5px; }
+    /* line 151, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .check-fields a {
+      color: #161b8e; }
+    /* line 154, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .check-fields div {
+      height: 30px;
+      margin-right: 8px;
+      margin-bottom: 5px;
+      float: left;
+      clear: both; }
+    /* line 161, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .form-group .check-fields span {
+      font-size: 11px;
+      margin-right: 6px;
+      float: left;
+      width: 80%; }
+  /* line 173, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+  .profile-container .display-container,
+  .profile-container .form-container {
+    float: left;
+    width: 100%;
+    margin: 10px 0 20px 0; }
+    /* line 178, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .display-container hr,
+    .profile-container .form-container hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #161b8e;
+      margin: 1em 0;
+      padding: 0; }
+    /* line 187, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .display-container .column,
+    .profile-container .form-container .column {
+      float: left;
+      width: 500px; }
+    /* line 191, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .display-container .column.right,
+    .profile-container .form-container .column.right {
+      width: 410px;
+      float: left; }
+    /* line 196, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+    .profile-container .display-container .data-container,
+    .profile-container .form-container .data-container {
+      float: left;
+      width: 400px;
+      padding-top: 5px; }
+      /* line 201, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container h4,
+      .profile-container .form-container .data-container h4 {
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        color: #161b8e;
+        text-transform: uppercase;
+        margin: 3px 0 0 0;
+        padding: 0; }
+      /* line 210, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container i,
+      .profile-container .form-container .data-container i {
+        margin-left: 10px;
+        font-size: 12px;
+        color: #585858; }
+      /* line 215, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container hr,
+      .profile-container .form-container .data-container hr {
+        float: left;
+        width: 100%;
+        font-family: "proxima-nova-condensed";
+        margin: 0.5em 0;
+        border-top: 1px solid #ccc; }
+      /* line 223, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container .data-items,
+      .profile-container .form-container .data-container .data-items {
+        float: left;
+        width: 100%;
+        padding-top: 5px;
+        padding-left: 0;
+        margin-left: 0; }
+        /* line 229, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .display-container .data-container .data-items li,
+        .profile-container .form-container .data-container .data-items li {
+          list-style: none;
+          float: left;
+          width: 100%;
+          padding: 5px 0; }
+          /* line 234, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+          .profile-container .display-container .data-container .data-items li label,
+          .profile-container .form-container .data-container .data-items li label {
+            color: #969696;
+            font-weight: normal;
+            padding-top: 5px;
+            /* override bootstap */
+            padding-left: 0;
+            padding-right: 0;
+            float: left; }
+          /* line 242, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+          .profile-container .display-container .data-container .data-items li span,
+          .profile-container .form-container .data-container .data-items li span {
+            float: left;
+            color: #585858;
+            padding: 3px 0 0 10px; }
+          /* line 248, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+          .profile-container .display-container .data-container .data-items li .sublist,
+          .profile-container .form-container .data-container .data-items li .sublist {
+            color: #585858; }
+            /* line 250, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+            .profile-container .display-container .data-container .data-items li .sublist li,
+            .profile-container .form-container .data-container .data-items li .sublist li {
+              float: right;
+              width: 70%;
+              padding: 4px 0 0 10px;
+              font-size: 14px;
+              line-height: 16px; }
+      /* line 261, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container .privacy-container,
+      .profile-container .form-container .data-container .privacy-container {
+        float: left;
+        clear: both;
+        width: 100%;
+        margin-top: 40px; }
+        /* line 266, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .display-container .data-container .privacy-container strong,
+        .profile-container .form-container .data-container .privacy-container strong {
+          font-family: "proxima-nova-condensed";
+          color: #969696;
+          font-size: 14px; }
+        /* line 272, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .display-container .data-container .privacy-container ul,
+        .profile-container .form-container .data-container .privacy-container ul {
+          padding-left: 18px; }
+          /* line 274, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+          .profile-container .display-container .data-container .privacy-container ul li,
+          .profile-container .form-container .data-container .privacy-container ul li {
+            font-size: 14px;
+            color: #969696; }
+      /* line 280, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container.vetvance-connections,
+      .profile-container .form-container .data-container.vetvance-connections {
+        margin-top: 40px; }
+      /* line 283, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container .friends-container,
+      .profile-container .form-container .data-container .friends-container {
+        float: left;
+        width: 100%;
+        margin-top: 10px; }
+        /* line 288, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+        .profile-container .display-container .data-container .friends-container img,
+        .profile-container .form-container .data-container .friends-container img {
+          padding: 4px 2px; }
+      /* line 293, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/profiles.scss */
+      .profile-container .display-container .data-container.privacy-container-form,
+      .profile-container .form-container .data-container.privacy-container-form {
+        float: left;
+        margin-top: 30px; }

@@ -1,0 +1,115 @@
+/*BEGIN SEARCH RESULTS STYLES*/
+/* line 5, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+.search-results-wrap {
+  padding: 0 26px 0 26px;
+  /* Eventually just want to extend bstrap btn styles*/
+  /*Colored course headers in results */
+  /*results subheader*/
+  /*Set colors for search results page because theyre coded by course*/ }
+  /* line 6, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap h1, .search-results-wrap h2, .search-results-wrap h3, .search-results-wrap h4, .search-results-wrap h5, .search-results-wrap h6 {
+    font-family: "proxima-nova-condensed";
+    font-weight: bold; }
+  /* line 11, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .search-courses {
+    width: 240px;
+    height: 26px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* prevents bg color from leaking outside the border */
+    background-color: #f3f3f3;
+    /* layer fill content + color overlay */
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.16);
+    /* inner shadow */
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.16);
+    /* inner shadow */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.16);
+    /* inner shadow */ }
+  /* line 26, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap h3.search-results-header {
+    color: #161b8e;
+    /* text color */
+    /*font-family: "ProximaNovaCond";*/
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  /* line 35, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap button.search-btn {
+    width: 70px;
+    height: 27px;
+    border: 1px solid #e95210;
+    /* stroke */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* prevents bg color from leaking outside the border */
+    background-color: #ff6300;
+    /* layer fill content */
+    color: #fff;
+    /* text color */
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 4px; }
+  /* line 54, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px; }
+  /* line 61, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap h5 {
+    color: #575757;
+    /* text color */
+    /*font-family: "ProximaNovaCond";*/
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 10px;
+    margin: 30px 0 3px 0; }
+  /* line 72, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .search-meta {
+    color: #585858;
+    /* text color */
+    font-family: "Arial";
+    font-size: 14px; }
+  /* line 78, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .course-results-wrap {
+    padding-left: 50px; }
+  /* line 82, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap ul {
+    padding-left: 0; }
+    /* line 84, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+    .search-results-wrap ul li {
+      list-style: none; }
+  /* line 91, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .fb {
+    color: #e03e52 !important; }
+  /* line 95, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .mmm {
+    color: #407ec9 !important; }
+  /* line 99, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .module-result-header {
+    font-weight: bold; }
+  /* line 103, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .module-num {
+    color: black !important;
+    font-weight: bold; }
+  /* line 108, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .module-subhead {
+    color: #a69f88;
+    text-decoration: underline; }
+  /* line 113, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/searchresults.scss */
+  .search-results-wrap .highlight {
+    background-color: yellow;
+    padding: 3px; }
+
+/*END SEARCH RESULTS STYLES*/

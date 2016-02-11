@@ -1,0 +1,80 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+.index-container {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px; }
+  /* line 8, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+  .index-container .carousel {
+    float: left;
+    width: 966px;
+    height: 522px;
+    position: relative; }
+    /* line 14, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+    .index-container .carousel .person {
+      display: block;
+      margin-left: 78px;
+      margin-top: 18px;
+      z-index: 5;
+      position: absolute; }
+    /* line 21, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+    .index-container .carousel .slide {
+      display: none;
+      background: #fff;
+      float: left;
+      width: 966px;
+      height: 522px; }
+  /* line 29, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+  .index-container .bucket-container {
+    display: inline-block;
+    float: left;
+    width: 912px;
+    height: 185px;
+    padding: 0 26px;
+    margin-top: -180px;
+    position: relative; }
+    /* line 37, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+    .index-container .bucket-container .background {
+      position: absolute;
+      background: #fff;
+      opacity: 0.6;
+      display: inline-block;
+      width: 912px;
+      height: 100%; }
+    /* line 45, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+    .index-container .bucket-container .buckets {
+      position: absolute;
+      border: 1px solid #ccc;
+      width: 912px;
+      height: auto;
+      padding: 20px 24px; }
+      /* line 52, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+      .index-container .bucket-container .buckets .bucket {
+        width: 266px;
+        height: auto;
+        display: inline-block;
+        margin-right: 20px; }
+        /* line 57, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+        .index-container .bucket-container .buckets .bucket p {
+          padding: 4px;
+          color: #585858;
+          font-family: "arial";
+          font-size: 12px; }
+        /* line 63, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+        .index-container .bucket-container .buckets .bucket button {
+          background: #fff;
+          border-bottom: 1px solid #999;
+          color: #161b8e;
+          text-transform: uppercase;
+          font-family: "proxima-nova-condensed";
+          font-size: 18px;
+          font-weight: bold; }
+          /* line 71, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+          .index-container .bucket-container .buckets .bucket button span {
+            float: left; }
+          /* line 74, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+          .index-container .bucket-container .buckets .bucket button .carrot {
+            margin-top: -4px;
+            margin-left: 5px; }
+        /* line 79, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/index.scss */
+        .index-container .bucket-container .buckets .bucket:last-child {
+          margin-right: 0px; }

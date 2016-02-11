@@ -1,0 +1,10 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/tou.scss */
+.tou-container {
+  padding: 0 26px 0 26px;
+  width: 678px; }
+  /* line 8, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/tou.scss */
+  .tou-container h1, .tou-container h2, .tou-container h3, .tou-container h4, .tou-container h5, .tou-container h6 {
+    font-family: "proxima-nova-condensed"; }
+  /* line 12, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/tou.scss */
+  .tou-container .tou-header {
+    font-weight: bold !important; }

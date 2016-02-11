@@ -1,0 +1,87 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+.advanced-container {
+  background: url("<%= images_dir %>/bg.gif");
+  background-repeat: repeat; }
+  /* line 7, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+  .advanced-container h1, .advanced-container h2, .advanced-container h3, .advanced-container h4, .advanced-container h5, .advanced-container h6 {
+    font-family: "proxima-nova-extra-condensed"; }
+  /* line 10, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+  .advanced-container .advance-header {
+    width: 100%;
+    height: 50px;
+    background-color: white; }
+    /* line 15, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .advance-header h1 {
+      opacity: .95;
+      /* layer alpha */
+      color: #b2b2b2;
+      /* text color */
+      font-weight: bold;
+      letter-spacing: -1px;
+      text-align: center; }
+    /* line 23, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .advance-header .advance-header-text {
+      padding-left: 250px;
+      background-color: white;
+      width: 758px; }
+    /* line 29, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .advance-header .course-list-text {
+      width: 150px; }
+    /* line 33, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .advance-header .view-courselist-link {
+      opacity: .95;
+      /* layer alpha */
+      color: #2a4692;
+      /* text color */
+      font-family: "Arial";
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: underline;
+      vertical-align: baseline;
+      letter-spacing: 0px;
+      line-height: 8;
+      background-color: white;
+      padding-right: 26px;
+      height: 50px; }
+  /* line 52, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+  .advanced-container .inner-container {
+    padding: 0 26px 0 26px; }
+    /* line 55, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .inner-container .advance-content {
+      width: 100%;
+      height: 536px; }
+    /* line 60, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .inner-container .advance-path {
+      margin-left: -38px; }
+    /* line 64, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .inner-container .woman {
+      float: left; }
+    /* line 68, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+    .advanced-container .inner-container .path-filter {
+      height: 47px;
+      width: 763px;
+      border: 1px solid #3b549a;
+      -webkit-border-radius: 13px;
+      -moz-border-radius: 13px;
+      border-radius: 13px;
+      padding: 10px 20px 10px 20px;
+      margin: 0 0 20px 0;
+      background: url("<%= images_dir %>/advancefilterbg.gif");
+      background-repeat: repeat-x;
+      z-index: 91; }
+      /* line 80, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+      .advanced-container .inner-container .path-filter p {
+        margin: 0; }
+      /* line 84, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+      .advanced-container .inner-container .path-filter .path-filter-header {
+        float: left;
+        font-family: "proxima-nova-extra-condensed";
+        font-size: 18px;
+        letter-spacing: -1px;
+        font-weight: bold; }
+      /* line 92, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+      .advanced-container .inner-container .path-filter .dropdown-wrap {
+        padding-left: 35px; }
+        /* line 94, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/advance.scss */
+        .advanced-container .inner-container .path-filter .dropdown-wrap select {
+          width: 115px; }

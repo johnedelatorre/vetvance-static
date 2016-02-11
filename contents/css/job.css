@@ -1,0 +1,6 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/job.scss */
+.job-container {
+  padding: 26px 0 26px; }
+  /* line 7, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/job.scss */
+  .job-container iframe {
+    border: none !important; }

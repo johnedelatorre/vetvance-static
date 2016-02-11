@@ -1,0 +1,92 @@
+/* line 3, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+.uppercase {
+  text-transform: uppercase !important; }
+
+/* line 6, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+.courselist-container {
+  padding: 0 0 0 26px; }
+  /* line 8, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container h1, .courselist-container h2, .courselist-container h3, .courselist-container h4, .courselist-container h5, .courselist-container h6 {
+    font-family: "proxima-nova-extra-condensed"; }
+  /* line 12, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container h1 {
+    opacity: .95;
+    /* layer alpha */
+    color: #b2b2b2;
+    /* text color */
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: center; }
+  /* line 20, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container h4 {
+    font-size: 24px; }
+  /* line 24, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container h5 {
+    font-size: 18px; }
+  /* line 28, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container .course-list {
+    float: left;
+    width: 285px; }
+  /* line 34, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container .course-list:nth-of-type(2) {
+    margin: 0 20px 0 20px; }
+  /* line 38, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container .course-header-bi {
+    border-bottom: 2px solid #3f7dc8; }
+  /* line 42, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container .course-header-pd {
+    border-bottom: 2px solid #00b3d3; }
+  /* line 46, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container .course-header-fb {
+    border-bottom: 2px solid #e03e52; }
+  /* line 50, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container .course-header-text {
+    /*font-family: "GothamCondensed";*/
+    margin-bottom: 4px; }
+  /* line 57, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+  .courselist-container ul.module-list {
+    padding-left: 0;
+    list-style: none; }
+    /* line 61, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li .module-logo {
+      float: left; }
+    /* line 65, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li .module-content {
+      padding-left: 60px; }
+      /* line 68, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+      .courselist-container ul.module-list li .module-content .module-content-text {
+        line-height: 13px; }
+      /* line 72, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+      .courselist-container ul.module-list li .module-content .module-dropdown-wrap {
+        /*.open{
+        	display: block !important;
+        }*/ }
+        /* line 77, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+        .courselist-container ul.module-list li .module-content .module-dropdown-wrap .module-dropdown {
+          display: none; }
+    /* line 89, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li p {
+      font-size: 12px; }
+    /* line 93, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li .module-dropdown-toggle {
+      color: #b2b2b2;
+      font-weight: bold;
+      cursor: pointer; }
+    /* line 99, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li ul {
+      list-style: none;
+      padding-left: 13px; }
+    /* line 104, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li ul li p {
+      line-height: 8px; }
+    /* line 108, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li ul li .module-name {
+      margin-bottom: 5px;
+      font-weight: bold;
+      width: 240px; }
+    /* line 114, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li ul li .module-details {
+      margin-bottom: 10px; }
+    /* line 118, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselist.scss */
+    .courselist-container ul.module-list li ul li .module-presented-by {
+      color: #b2b2b2; }

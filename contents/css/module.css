@@ -1,0 +1,342 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+.module-container {
+  padding: 0 26px 0 26px;
+  background: url("<%= images_dir %>/courselanding/bg.png");
+  width: 100%;
+  /* */
+  height: 710px;
+  background-repeat: repeat; }
+  /* line 11, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container h1, .module-container h2, .module-container h3, .module-container h4, .module-container h5, .module-container h6 {
+    font-family: "proxima-nova-condensed"; }
+  /* line 17, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .header .dropdown .dropdown-menu {
+    border: 1px solid #00b3d3;
+    min-width: 180px; }
+    /* line 20, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .header .dropdown .dropdown-menu li {
+      background-color: #f6f6f6;
+      padding: 5px 0 5px 3px; }
+      /* line 24, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .header .dropdown .dropdown-menu li p {
+        line-height: 1.2; }
+      /* line 27, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .header .dropdown .dropdown-menu li .dd-modname {
+        font-size: 12px;
+        margin: 0; }
+      /* line 32, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .header .dropdown .dropdown-menu li .dd-presentedby {
+        font-size: 10px;
+        margin: 0px; }
+    /* line 38, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .header .dropdown .dropdown-menu .v-active {
+      background-color: white !important; }
+    /* line 42, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .header .dropdown .dropdown-menu .v-active > .dd-modname {
+      font-weight: bold; }
+  /* line 50, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .course-finder-link {
+    position: relative;
+    top: 35px;
+    font-size: 10px;
+    right: 55px;
+    color: #161b8e; }
+  /* line 59, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .courselanding-header-text {
+    font-weight: bold; }
+  /* line 63, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .module-dropdown-arrow {
+    margin-top: 30px;
+    padding: 0 5px 0 10px; }
+  /* line 68, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .path-img {
+    margin: 13px 0 0 10px; }
+  /* line 72, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .module-name {
+    margin-top: -65px; }
+  /* line 76, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .module-details {
+    margin-top: -20px; }
+    /* line 78, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .module-details .scenario-wrap {
+      margin: -5px 0 0 12px; }
+      /* line 81, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .module-details .scenario-wrap .scenario-label {
+        font-weight: bold;
+        font-family: "proxima-nova-extra-condensed";
+        line-height: 0;
+        padding-bottom: 5px; }
+      /* line 88, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .module-details .scenario-wrap .scenario-text {
+        width: 440px;
+        font-size: 14px;
+        float: left;
+        /*margin-top: -35px;*/ }
+  /* line 99, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .content-main {
+    margin-top: 50px; }
+    /* line 101, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .content-main .column {
+      float: left;
+      margin: auto;
+      text-align: center; }
+      /* line 105, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .column ul {
+        margin: 0; }
+    /* line 110, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .content-main .column-left {
+      width: 400px; }
+    /* line 114, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .content-main .column-right {
+      width: 510px; }
+    /* line 118, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .content-main .question-wrap {
+      border: 1px solid #b2b2b2;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      overflow: auto;
+      padding: 5px 17px 12px 17px;
+      height: 475px;
+      background-color: white; }
+      /* line 127, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .question-wrap .question-text {
+        font-weight: bold;
+        text-align: left;
+        font-family: "proxima-nova-extra-condensed"; }
+        /* line 131, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .question-wrap .question-text .question-number {
+          margin-right: 5px; }
+      /* line 137, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .question-wrap .answers-wrap ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: auto; }
+        /* line 143, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .question-wrap .answers-wrap ul li {
+          margin: 5px 0 5px 0;
+          background-color: #f5f5f5;
+          overflow: hidden;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          padding: 17px 20px 5px 10px;
+          border: 1px solid #b2b2b2; }
+          /* line 152, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li p {
+            text-align: left;
+            float: left;
+            width: 230px;
+            margin: 0; }
+          /* line 158, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li img {
+            margin-top: 5px; }
+          /* line 162, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li .percentage-selected {
+            font-size: 24px;
+            font-weight: bold;
+            font-family: "proxima-nova-condensed";
+            padding: 0 15px 0 20px; }
+          /* line 169, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li .v-progress-bar {
+            height: 5px;
+            /* Can be anything */
+            position: relative;
+            /*background: #555;
+            -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+            -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+            box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);*/
+            margin-top: 45px; }
+          /* line 179, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li .v-progress-bar > span {
+            display: block;
+            height: 100%;
+          /* -webkit-border-top-right-radius: 8px;
+        -webkit-border-bottom-right-radius: 8px;
+               -moz-border-radius-topright: 8px;
+            -moz-border-radius-bottomright: 8px;
+                   border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+            -webkit-border-top-left-radius: 20px;
+         -webkit-border-bottom-left-radius: 20px;
+                -moz-border-radius-topleft: 20px;
+             -moz-border-radius-bottomleft: 20px;
+                    border-top-left-radius: 20px;
+                 border-bottom-left-radius: 20px;*/
+            background-color: #2bc253;
+            background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2bc253), color-stop(1, #54f054));
+            background-image: -webkit-linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+            background-image: -moz-linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+            background-image: -ms-linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+            background-image: -o-linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+            -webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden; }
+          /* line 232, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li .orange > span {
+            background-color: #ff6400;
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff6400), color-stop(1, #ff6400));
+            background-image: -webkit-linear-gradient(top, #ff6400, #ff6400);
+            background-image: -moz-linear-gradient(top, #ff6400, #ff6400);
+            background-image: -ms-linear-gradient(top, #ff6400, #ff6400);
+            background-image: -o-linear-gradient(top, #ff6400, #ff6400); }
+          /* line 241, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li .red > span {
+            background-color: #f0a3a3;
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0a3a3), color-stop(1, #f42323));
+            background-image: -webkit-linear-gradient(top, #f0a3a3, #f42323);
+            background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+            background-image: -ms-linear-gradient(top, #f0a3a3, #f42323);
+            background-image: -o-linear-gradient(top, #f0a3a3, #f42323); }
+          /* line 250, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap ul li .black > span {
+            background-color: black;
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, black), color-stop(1, black));
+            background-image: -webkit-linear-gradient(top, black, black);
+            background-image: -moz-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black, black);
+            background-image: -o-linear-gradient(top, black, black); }
+        /* line 262, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .question-wrap .answers-wrap ul li.active {
+          border: 1px solid #161b8e; }
+      /* line 268, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .question-wrap .answers-wrap .like-minded-wrap {
+        margin-top: 15px; }
+        /* line 270, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .question-wrap .answers-wrap .like-minded-wrap .like-minded-header {
+          text-align: left !important;
+          line-height: 0; }
+        /* line 274, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .question-wrap .answers-wrap .like-minded-wrap .like-minded-connect {
+          margin-top: 15px; }
+          /* line 277, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap .like-minded-wrap .like-minded-connect .like-nav-arrow {
+            margin-top: 10px; }
+          /* line 280, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .question-wrap .answers-wrap .like-minded-wrap .like-minded-connect .similar-vets {
+            /*margin-left: 35px;*/ }
+            /* line 282, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+            .module-container .content-main .question-wrap .answers-wrap .like-minded-wrap .like-minded-connect .similar-vets .vet {
+              width: 75px;
+              margin: 0 4px 0 4px;
+              text-align: center; }
+              /* line 287, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+              .module-container .content-main .question-wrap .answers-wrap .like-minded-wrap .like-minded-connect .similar-vets .vet p {
+                line-height: 12px;
+                font-size: 12px; }
+      /* line 296, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .question-wrap .answers-wrap button {
+        margin-top: 15px;
+        color: #161b8e;
+        font-weight: bold;
+        font-family: "proxima-nova-condensed"; }
+    /* line 309, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .content-main .module-tabs-wrap {
+      -webkit-border-top-left-radius: 3px;
+      -webkit-border-top-right-radius: 3px;
+      -moz-border-radius-topleft: 3px;
+      -moz-border-radius-topright: 3px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      overflow: hidden;
+      border: 1px solid #b2b2b2;
+      margin-left: 25px;
+      height: 475px;
+      background-color: white; }
+      /* line 321, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap .tab {
+        float: left;
+        padding: 5px 63px 5px 15px;
+        background: url("<%= images_dir %>/module/video-nav-bg.png");
+        background-repeat: repeat;
+        cursor: pointer;
+        border-bottom: 1px solid #b2b2b2;
+        color: #b2b2b2;
+        width: 50%; }
+        /* line 327, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .module-tabs-wrap .tab .module-resource-number {
+          margin-right: 5px;
+          color: #b2b2b2; }
+        /* line 335, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .module-tabs-wrap .tab .tab-text {
+          width: 170px; }
+      /* line 340, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap .tab-active {
+        border-bottom: none;
+        color: black !important;
+        background: none;
+        cursor: default; }
+        /* line 345, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .module-tabs-wrap .tab-active .module-resource-number {
+          margin-right: 5px;
+          color: #ff6400; }
+      /* line 351, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap .tab-active.experts {
+        border-right: 1px solid #b2b2b2; }
+      /* line 355, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap .tab-active.resources {
+        border-left: 1px solid #b2b2b2; }
+      /* line 359, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap .active {
+        color: #ff6400; }
+      /* line 364, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap .tab-text {
+        font-weight: bold;
+        font-family: "proxima-nova-extra-condensed"; }
+      /* line 369, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap .tab-content {
+        margin: 20px 10px 20px 10px;
+        /*.tab-pane{
+        	display: none;
+        }*/
+        /*.content-active{
+        	display: inline-block;
+        	cursor: pointer;
+        }*/ }
+        /* line 380, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+        .module-container .content-main .module-tabs-wrap .tab-content ul {
+          list-style: none;
+          padding: 0;
+          margin: 0; }
+          /* line 384, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .module-tabs-wrap .tab-content ul li {
+            padding: 5px 0 5px 0; }
+            /* line 386, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+            .module-container .content-main .module-tabs-wrap .tab-content ul li .resource-text {
+              text-align: left;
+              padding: 0 0 10px 65px;
+              border-bottom: 1px solid #b2b2b2; }
+              /* line 390, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+              .module-container .content-main .module-tabs-wrap .tab-content ul li .resource-text h4 {
+                line-height: 18px;
+                margin: 0 !important;
+                padding: 0;
+                font-weight: bold; }
+              /* line 397, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+              .module-container .content-main .module-tabs-wrap .tab-content ul li .resource-text p {
+                font-size: 12px;
+                line-height: 13px;
+                margin-bottom: 0px; }
+              /* line 403, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+              .module-container .content-main .module-tabs-wrap .tab-content ul li .resource-text a {
+                font-size: 12px; }
+          /* line 413, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+          .module-container .content-main .module-tabs-wrap .tab-content ul li:nth-of-type(3) > .resource-text {
+            border: none; }
+      /* line 419, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+      .module-container .content-main .module-tabs-wrap button {
+        margin: 15px 20px 0 0;
+        color: #161b8e;
+        font-weight: bold;
+        font-family: "proxima-nova-condensed"; }
+  /* line 429, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+  .module-container .module-pager {
+    margin: 70px 0 0 0; }
+    /* line 431, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .module-pager .previous-module {
+      text-align: left; }
+    /* line 435, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/module.scss */
+    .module-container .module-pager .next-module {
+      text-align: right; }

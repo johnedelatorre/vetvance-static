@@ -1,0 +1,99 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+.courselanding-container {
+  padding: 0 26px 0 26px;
+  background: url("<%= images_dir %>/courselanding/bg.png");
+  width: 100%;
+  height: 600px;
+  background-repeat: repeat; }
+  /* line 10, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container h1, .courselanding-container h2, .courselanding-container h3, .courselanding-container h4, .courselanding-container h5, .courselanding-container h6 {
+    font-family: "proxima-nova-condensed"; }
+  /* line 14, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container .courselanding-header-text {
+    font-weight: bold; }
+  /* line 18, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container .path-img {
+    margin: 7px 0 0 10px; }
+  /* line 22, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container .header-text {
+    width: 480px;
+    font-size: 14px;
+    float: left;
+    margin-top: -35px; }
+  /* line 29, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container .course-finder-link {
+    position: relative;
+    top: 35px;
+    font-size: 10px;
+    right: 55px;
+    color: #161b8e; }
+  /* line 37, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container .content-main {
+    margin: 25px 0 0 0px; }
+  /* line 40, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container .column {
+    float: left;
+    width: 45.95%;
+    margin: auto;
+    text-align: center; }
+    /* line 45, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+    .courselanding-container .column ul {
+      margin: 0; }
+    /* line 49, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+    .courselanding-container .column .main-icon {
+      padding-left: 95px; }
+  /* line 55, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+  .courselanding-container .modules-list {
+    list-style: none;
+    padding: 0;
+    /*Bootstrap Overrides*/
+    /*.popover .arrow, .popover .arrow:after {
+    	border-color: $color-purple;
+    }*/ }
+    /* line 60, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+    .courselanding-container .modules-list .popover {
+      border: 1px solid #161b8e;
+      max-width: 360px; }
+    /* line 65, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+    .courselanding-container .modules-list .popover.right .arrow:after {
+      border-right-color: #161b8e; }
+    /* line 75, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+    .courselanding-container .modules-list .popover-header {
+      border-bottom: 1px solid #161b8e;
+      padding: 0 0 10px 0;
+      max-width: 310px; }
+      /* line 79, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+      .courselanding-container .modules-list .popover-header .header-text {
+        padding-left: 60px;
+        overflow: hidden; }
+        /* line 82, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+        .courselanding-container .modules-list .popover-header .header-text h4, .courselanding-container .modules-list .popover-header .header-text h5 {
+          line-height: 1;
+          margin: 0;
+          padding: 0; }
+    /* line 92, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+    .courselanding-container .modules-list .popover-body {
+      margin-top: 10px; }
+    /* line 96, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+    .courselanding-container .modules-list .module {
+      margin: 13px 0 13px 0; }
+      /* line 99, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+      .courselanding-container .modules-list .module .done {
+        margin-top: 1px; }
+      /* line 103, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+      .courselanding-container .modules-list .module .module-number {
+        color: #7c8cbc;
+        padding-left: 15px; }
+      /* line 108, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+      .courselanding-container .modules-list .module .module-details {
+        text-align: left;
+        padding-left: 10px; }
+        /* line 112, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+        .courselanding-container .modules-list .module .module-details .module-name {
+          line-height: 0px;
+          color: #3f7dc8;
+          font-weight: bold;
+          font-size: 16px; }
+        /* line 120, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/courselanding.scss */
+        .courselanding-container .modules-list .module .module-details .module-presenter a {
+          color: #161b8e; }

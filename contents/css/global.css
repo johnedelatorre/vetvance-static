@@ -1,0 +1,385 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+body {
+  background: #eaeaea url("../imgs/background.png");
+  font-family: arial; }
+
+/* line 8, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+h1, h2, h3, h4, h5 {
+  font-family: arial; }
+
+/* line 11, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.container {
+  background: #fff;
+  /* override bootstrap */
+  min-width: 966px;
+  max-width: 966px;
+  padding: 0; }
+
+/* line 19, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.main-container {
+  float: left;
+  width: 100%; }
+
+/* line 24, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+header.pageheader {
+  float: left;
+  width: 100%;
+  clear: both;
+  padding: 0 26px; }
+  /* line 30, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  header.pageheader .toprow .logo {
+    margin-top: 16px;
+    float: left; }
+  /* line 34, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  header.pageheader .toprow .course-finder {
+    background-color: #ff6400;
+    width: 205px;
+    height: 86px;
+    float: right;
+    padding: 20px 10px 0 10px;
+    -moz-border-bottom-left-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; }
+    /* line 51, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+    header.pageheader .toprow .course-finder label {
+      background: url("../imgs/img_coursefinder.png") no-repeat 1px 5px;
+      color: #fff;
+      font-family: "proxima-nova-alt-ext-cond";
+      font-size: 18px;
+      font-weight: normal;
+      padding-left: 25px; }
+    /* line 59, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+    header.pageheader .toprow .course-finder .search-field {
+      float: left;
+      width: 100%; }
+    /* line 63, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+    header.pageheader .toprow .course-finder .ico-search {
+      background: url("../imgs/coursefinder.png") no-repeat white left 2px;
+      float: right;
+      cursor: pointer;
+      white-space: nowrap;
+      text-indent: 150%;
+      overflow: hidden;
+      width: 26px;
+      height: 24px;
+      display: block;
+      color: #fff;
+      border-radius: 0 1px 1px 0;
+      border-right: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      border-left: none; }
+    /* line 80, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+    header.pageheader .toprow .course-finder .input-search {
+      float: left;
+      color: #959595;
+      font-family: "arial";
+      font-size: 12px;
+      height: 24px;
+      width: 159px;
+      border-left: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+      border-radius: 1px 0 0 1px;
+      padding-left: 4px; }
+  /* line 96, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  header.pageheader nav {
+    float: left;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 0px; }
+    /* line 101, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+    header.pageheader nav ul {
+      float: left;
+      width: 100%;
+      margin-bottom: 5px;
+      padding-left: 0; }
+      /* line 106, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+      header.pageheader nav ul li {
+        list-style: none;
+        float: left;
+        width: 140px;
+        text-align: center;
+        border-right: 1px #ccc solid;
+        margin-top: 5px; }
+        /* line 114, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li:nth-child(5), header.pageheader nav ul li:last-child {
+          border: none; }
+        /* line 117, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li a {
+          color: #a2a2a2;
+          font-family: "proxima-nova-alt-ext-cond";
+          font-size: 16px;
+          font-weight: bold;
+          padding-bottom: 4px; }
+        /* line 125, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li .active,
+        header.pageheader nav ul li a:hover {
+          color: #161b8e;
+          text-decoration: none;
+          border-bottom: 2px solid #161b8e; }
+        /* line 130, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li.home {
+          width: 70px;
+          margin-left: 5px; }
+          /* line 133, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.home img {
+            margin-top: -6px; }
+        /* line 137, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li .advanced {
+          background: url("../imgs/learn.png") no-repeat 1px 3px;
+          padding-left: 26px; }
+          /* line 141, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li .advanced.active, header.pageheader nav ul li .advanced:hover {
+            background: url("../imgs/learn-active.png") no-repeat 1px 3px; }
+        /* line 145, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li .connect {
+          background: url("../imgs/connect.png") no-repeat 1px 1px;
+          padding-left: 24px; }
+          /* line 149, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li .connect.active, header.pageheader nav ul li .connect:hover {
+            background: url("../imgs/connect-active.png") no-repeat 1px 1px; }
+        /* line 153, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li .search {
+          background: url("../imgs/search.png") no-repeat 1px 3px;
+          padding-left: 22px; }
+          /* line 157, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li .search.active, header.pageheader nav ul li .search:hover {
+            background: url("../imgs/search-active.png") no-repeat 1px 3px; }
+        /* line 161, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li .whoweare {
+          background: url("../imgs/whoweare.png") no-repeat 1px 1px;
+          padding-left: 24px; }
+          /* line 165, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li .whoweare.active, header.pageheader nav ul li .whoweare:hover {
+            background: url("../imgs/whoweare-active.png") no-repeat 1px 1px; }
+        /* line 169, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li.user-dd {
+          display: none;
+          float: right;
+          width: 208px;
+          margin-top: -5px;
+          border: 0; }
+          /* line 175, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.user-dd .user-head {
+            width: 34px;
+            height: 34px;
+            margin-right: 10px; }
+          /* line 180, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.user-dd .user-name {
+            font-family: arial;
+            font-size: 12px;
+            margin-right: 10px;
+            margin-top: 10px;
+            color: #161b8e;
+            font-weight: bold; }
+          /* line 188, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.user-dd .controls {
+            cursor: pointer;
+            margin-top: 5px; }
+          /* line 193, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.user-dd .dropdown ul {
+            width: 190px;
+            margin-left: 10px;
+            margin-top: 5px;
+            background: url("../imgs/connect/bk-filter.png");
+            border: 1px solid #ababab;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            background-color: #fff;
+            -moz-box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);
+            -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.15); }
+            /* line 210, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+            header.pageheader nav ul li.user-dd .dropdown ul li {
+              border: 0;
+              width: 100%;
+              font-size: 12px;
+              text-align: left;
+              padding: 4px 10px;
+              margin: 0; }
+              /* line 217, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+              header.pageheader nav ul li.user-dd .dropdown ul li.divider {
+                background: url("../imgs/dd-divider.png");
+                height: 1px;
+                width: 185px;
+                padding: 0;
+                margin: 4px 0; }
+              /* line 224, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+              header.pageheader nav ul li.user-dd .dropdown ul li img {
+                padding-right: 5px; }
+              /* line 227, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+              header.pageheader nav ul li.user-dd .dropdown ul li a {
+                margin: 0;
+                padding: 0;
+                font-size: 12px;
+                font-family: arial;
+                font-weight: normal; }
+                /* line 233, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+                header.pageheader nav ul li.user-dd .dropdown ul li a.userlink {
+                  color: #161b8e; }
+              /* line 237, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+              header.pageheader nav ul li.user-dd .dropdown ul li a:hover {
+                border-bottom: 0px; }
+              /* line 241, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+              header.pageheader nav ul li.user-dd .dropdown ul li.menuitem {
+                padding-left: 15px; }
+                /* line 243, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+                header.pageheader nav ul li.user-dd .dropdown ul li.menuitem a {
+                  color: #585858;
+                  font-weight: bold; }
+              /* line 249, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+              header.pageheader nav ul li.user-dd .dropdown ul li.menuitem.more a {
+                color: #161b8e;
+                font-weight: normal; }
+        /* line 258, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        header.pageheader nav ul li.login {
+          float: right;
+          width: 170px; }
+          /* line 261, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.login ul {
+            padding-left: 0;
+            float: right; }
+            /* line 264, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+            header.pageheader nav ul li.login ul li {
+              float: left;
+              width: 80px; }
+              /* line 267, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+              header.pageheader nav ul li.login ul li:first-child a {
+                float: left; }
+          /* line 272, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.login a {
+            float: right;
+            padding-bottom: 0px;
+            color: #161b8e;
+            font-family: "arial";
+            font-size: 12px; }
+          /* line 279, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+          header.pageheader nav ul li.login a:hover {
+            border-bottom: none; }
+
+/* line 287, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+footer {
+  float: left;
+  width: 100%;
+  clear: both;
+  margin: 20px 0 10px 0;
+  padding: 0 26px; }
+  /* line 293, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer .aaha-logo {
+    width: 66px;
+    float: left; }
+  /* line 298, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer .footer-nav {
+    float: left;
+    padding-left: 178px; }
+  /* line 303, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer nav {
+    margin-top: 5px; }
+    /* line 306, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+    footer nav ul {
+      float: left;
+      width: 100%;
+      margin-bottom: 5px; }
+      /* line 310, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+      footer nav ul li {
+        list-style: none;
+        float: left;
+        color: #909090;
+        font-family: "arial";
+        font-size: 11px;
+        padding: 0 20px 0 20px;
+        border-right: 1px solid #909090; }
+        /* line 318, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+        footer nav ul li a {
+          color: #a2a2a2; }
+      /* line 323, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+      footer nav ul li:last-child {
+        border: none; }
+  /* line 328, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer .social-wrap {
+    float: right; }
+  /* line 331, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer .social-icon:nth-of-type(2) {
+    padding: 0 4px 0 4px; }
+  /* line 334, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer .footer-spacer {
+    width: 100%;
+    height: 1px;
+    background-color: #e2e2e2;
+    margin: 5px 0 10px 0; }
+  /* line 341, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer .fineprint {
+    color: #909090;
+    font-family: "arial";
+    font-size: 10px;
+    line-height: 11px;
+    width: 750px;
+    float: left; }
+  /* line 349, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+  footer .zoetis-logo {
+    width: 76px;
+    float: right; }
+
+/* Style override to make bootstrap popovers work with purple color scheme
+/*Bootstrap Overrides*/
+/* line 357, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.popover {
+  border: 1px solid #161b8e;
+  max-width: 360px; }
+
+/* line 362, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.popover.right .arrow:after {
+  border-right-color: #161b8e; }
+
+/* line 366, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.popover.left .arrow:after {
+  border-left-color: #161b8e; }
+
+/* line 370, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.popover.top .arrow:after {
+  border-top-color: #161b8e; }
+
+/* line 374, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.popover.bottom .arrow:after {
+  border-bottom-color: #161b8e; }
+
+/* Global color declarations can be used in <span> to create multi color text */
+/* line 380, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.orange {
+  color: #ff6400 !important; }
+
+/* line 384, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.fb {
+  color: #e03e52 !important; }
+
+/* line 388, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.mmm {
+  color: #407ec9 !important; }
+
+/* line 392, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.pd {
+  color: #00b3d3 !important; }
+
+/* line 396, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.bi {
+  color: #3f7dc8 !important; }
+
+/* line 400, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.gray {
+  color: #b2b2b2 !important; }
+
+/* line 404, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/global.scss */
+.purple {
+  color: #161b8e !important; }

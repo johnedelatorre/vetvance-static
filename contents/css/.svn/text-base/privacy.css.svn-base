@@ -1,0 +1,10 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/privacy.scss */
+.privacy-container {
+  padding: 0 26px 0 26px;
+  width: 678px; }
+  /* line 8, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/privacy.scss */
+  .privacy-container h1, .privacy-container h2, .privacy-container h3, .privacy-container h4, .privacy-container h5, .privacy-container h6 {
+    font-family: "proxima-nova-condensed"; }
+  /* line 12, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/privacy.scss */
+  .privacy-container .privacy-header {
+    font-weight: bold !important; }

@@ -1,0 +1,344 @@
+/* line 4, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+.connect-container {
+  margin-top: 30px;
+  padding: 0 26px 0 26px;
+  float: left; }
+  /* line 9, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+  .connect-container .header span {
+    width: 65%;
+    float: left; }
+    /* line 12, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+    .connect-container .header span.showme {
+      float: right;
+      width: 280px;
+      background: url("../imgs/connect/bk-showme.png") no-repeat;
+      padding: 10px;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px; }
+      /* line 21, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .header span.showme p {
+        color: #161b8e;
+        font-family: "proxima-nova-condensed";
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 70%;
+        float: left; }
+      /* line 30, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .header span.showme button.btn {
+        background: #ff6400;
+        float: right;
+        width: 30%;
+        color: #fff;
+        font-family: "proxima-nova-condensed";
+        font-size: 14px;
+        font-weight: bold;
+        padding: 4px; }
+  /* line 42, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+  .connect-container .header h2 {
+    margin: 0 0 10px 0;
+    color: #161b8e;
+    font-family: "proxima-nova-condensed";
+    font-size: 20px;
+    font-weight: bold; }
+  /* line 49, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+  .connect-container .header p {
+    color: #585858;
+    font-family: "arial";
+    font-size: 12px; }
+  /* line 55, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+  .connect-container .filter-results-container {
+    float: left;
+    width: 100%;
+    margin: 20px 0 40px 0; }
+    /* line 59, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+    .connect-container .filter-results-container .filter-container {
+      float: left;
+      width: 33%;
+      background: url("../imgs/connect/bk-filter.png");
+      padding: 20px; }
+      /* line 64, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .filter-container ul {
+        width: 100%; }
+        /* line 66, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .filter-results-container .filter-container ul li {
+          color: #585858;
+          font-size: 12px;
+          font-family: "arial";
+          float: left;
+          clear: both;
+          width: 100%;
+          margin: 3px 0; }
+          /* line 74, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .filter-container ul li .icheckbox_minimal-orange {
+            float: left;
+            margin-right: 5px; }
+      /* line 80, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .filter-container label {
+        color: #161b8e;
+        font-size: 12px;
+        font-family: "arial";
+        float: left;
+        clear: both;
+        width: 100%;
+        margin: 16px 0 0 0; }
+        /* line 89, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .filter-results-container .filter-container label .profilter {
+          float: right; }
+          /* line 91, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .filter-container label .profilter a {
+            color: #161b8e;
+            font-weight: normal; }
+        /* line 96, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .filter-results-container .filter-container label .btn-popover {
+          float: right;
+          color: #585858;
+          font-family: "proxima-nova-condensed";
+          font-size: 12px;
+          font-weight: bold;
+          padding: 1px 10px;
+          border: 1px solid #b7b7b7;
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          -moz-background-clip: padding;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          background-color: #f3f3f3; }
+      /* line 113, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .filter-container ul {
+        margin: 0;
+        padding: 0;
+        float: left;
+        clear: both; }
+        /* line 118, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .filter-results-container .filter-container ul li {
+          list-style: none; }
+          /* line 120, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .filter-container ul li label {
+            color: #585858;
+            font-family: "arial";
+            font-size: 12px;
+            font-weight: normal;
+            margin: 0 0 0 0; }
+            /* line 126, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+            .connect-container .filter-results-container .filter-container ul li label input {
+              margin-right: 3px; }
+      /* line 132, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .filter-container input.txt {
+        font-size: 12px;
+        padding: 4px;
+        float: left;
+        clear: both;
+        margin: 5px 0 0 0;
+        width: 100%;
+        border: 1px solid #e5e5e5;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background-color: #fff;
+        -moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.04);
+        -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.04);
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.04); }
+      /* line 151, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .filter-container select {
+        float: left;
+        clear: both;
+        height: 25px;
+        width: 150px;
+        margin: 5px 0 0 0;
+        font-size: 12px; }
+      /* line 160, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .filter-container .expertise-specialty,
+      .connect-container .filter-results-container .filter-container .interest-practice {
+        float: left;
+        width: 100%;
+        margin: 10px 0; }
+    /* line 166, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+    .connect-container .filter-results-container .results-container {
+      float: right;
+      width: 600px; }
+      /* line 170, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .results-container ul {
+        margin: 0;
+        padding: 0; }
+        /* line 173, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .filter-results-container .results-container ul li {
+          list-style: none;
+          margin: 0;
+          padding: 0; }
+        /* line 179, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .filter-results-container .results-container ul.sort-filter {
+          padding-top: 10px;
+          width: 100%;
+          float: left;
+          border-top: 1px solid #ccc; }
+          /* line 184, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .results-container ul.sort-filter li {
+            float: left;
+            margin-right: 20px;
+            color: #585858;
+            font-family: "arial";
+            font-size: 12px; }
+            /* line 191, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+            .connect-container .filter-results-container .results-container ul.sort-filter li a {
+              color: #585858;
+              text-decoration: none; }
+              /* line 194, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+              .connect-container .filter-results-container .results-container ul.sort-filter li a.active {
+                color: #ff6400;
+                font-weight: bold; }
+            /* line 199, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+            .connect-container .filter-results-container .results-container ul.sort-filter li:first-child {
+              width: 50px;
+              margin-right: 10px; }
+      /* line 207, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .filter-results-container .results-container .results-data {
+        float: left;
+        width: 100%;
+        margin-top: 25px; }
+        /* line 211, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .filter-results-container .results-container .results-data .data-item {
+          width: 290px;
+          height: 100px;
+          margin: 0 10px 10px 0;
+          float: left;
+          display: inline-block;
+          position: relative; }
+          /* line 212, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .results-container .results-data .data-item:nth-child(even) {
+            margin: 0 0 10px 10px; }
+          /* line 222, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .results-container .results-data .data-item img.person {
+            width: 88px;
+            height: 88px;
+            position: absolute;
+            left: 0; }
+          /* line 229, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .results-container .results-data .data-item a.btnConnect img {
+            width: 70px;
+            height: 18px;
+            position: absolute;
+            right: 8px;
+            bottom: 8px; }
+          /* line 237, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+          .connect-container .filter-results-container .results-container .results-data .data-item span {
+            float: left;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            padding: 5px 5px 0px 46px;
+            height: 80px;
+            width: 240px;
+            margin-top: 5px;
+            margin-left: 50px;
+            font-size: 12px;
+            font-family: "arial"; }
+            /* line 250, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+            .connect-container .filter-results-container .results-container .results-data .data-item span strong {
+              margin: 0 0 0 0;
+              padding: 0 0 0 0;
+              font-weight: normal;
+              color: #161b8e; }
+            /* line 256, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+            .connect-container .filter-results-container .results-container .results-data .data-item span p {
+              margin: 0 0 0 0;
+              padding: 0 0 0 0;
+              color: #585858;
+              font-size: 11px; }
+  /* line 267, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+  .connect-container .popover {
+    max-width: 488px; }
+  /* line 270, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+  .connect-container .popover-content {
+    padding: 8px;
+    width: 488px;
+    height: 212px; }
+    /* line 274, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+    .connect-container .popover-content .popover-header {
+      width: 100%;
+      float: left;
+      clear: both; }
+      /* line 278, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .popover-content .popover-header h4 {
+        float: left;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        font-weight: bold; }
+      /* line 285, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .popover-content .popover-header span {
+        float: right;
+        background: #fff; }
+        /* line 288, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .popover-content .popover-header span a {
+          color: #161b8e; }
+    /* line 293, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+    .connect-container .popover-content .popover-footer {
+      width: 100%;
+      float: right;
+      clear: both;
+      padding: 5px; }
+      /* line 298, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .popover-content .popover-footer a {
+        float: right; }
+      /* line 301, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .popover-content .popover-footer .btn-save {
+        width: 70px;
+        background: #ff6400;
+        color: #fff;
+        padding: 1px 0 0 0;
+        font-family: "proxima-nova-condensed";
+        font-size: 12px;
+        font-weight: bold;
+        height: 20px;
+        padding: 0;
+        margin-right: 5px;
+        text-transform: uppercase;
+        border: 1px solid #e95210;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background-color: #ff6300; }
+      /* line 322, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .popover-content .popover-footer .btn-cancel {
+        width: 70px;
+        height: 20px;
+        padding: 1px 0 0 0;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #585858;
+        font-weight: bold;
+        border: 1px solid #b7b7b7;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background-color: #f3f3f3; }
+    /* line 340, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+    .connect-container .popover-content .popover-data {
+      width: 100%;
+      float: left;
+      padding: 5px 0; }
+      /* line 344, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+      .connect-container .popover-content .popover-data ul.column {
+        width: 33%;
+        float: left;
+        clear: none;
+        padding-right: 10px; }
+        /* line 349, /Users/jschmidt/Sites/middleman/vetvance/source/contents/css/connect.scss */
+        .connect-container .popover-content .popover-data ul.column li {
+          float: left;
+          width: 100%;
+          font-size: 12px;
+          font-family: arial; }
